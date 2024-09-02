@@ -1,3 +1,7 @@
+module LibSpec
+  ( main
+  ) where
+
 import           Lib        (convertMarkdownToHtml)
 import           Test.Hspec
 

@@ -1,6 +1,6 @@
 module Lib
-    ( someFunc
-    ) where
+  ( convertMarkdownToHtml
+  ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+convertMarkdownToHtml :: String -> String
+convertMarkdownToHtml markdown = "<h1>" ++ drop 2 markdown ++ "</h1>\n"
